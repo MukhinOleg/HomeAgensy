@@ -1,0 +1,455 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*-----------------------------------------------*/
+
+@font-face {
+    font-family: 'Conv_SourceSansPro-Regular';
+    src: url('../fonts/SourceSansPro-Regular.eot');
+    src: local('☺'), url('../fonts/SourceSansPro-Regular.woff') format('woff'), url('fonts/SourceSansPro-Regular.ttf') format('truetype'), url('fonts/SourceSansPro-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    width: 1920px;
+    font-size: 16px;
+    color: #2f4052; }
+
+header{
+    width: 100%;
+    height: 155px;
+    margin: 0 auto;}
+
+header nav{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(245,247,250);}
+
+.navi{
+    margin-left: 375px;
+    font-family: 'Conv_SourceSansPro-Regular';
+    color: rgb(80,106,133); 
+    font-size: 12px;
+    padding-top: 14px; 
+}
+
+.navi li{
+    display: inline-block;
+    padding-right: 30px;}
+
+.navi li:first-child{
+    background: url('../img/icon-mail-1.png') no-repeat;
+    padding-left: 20px;}
+
+.navi li:last-child{
+    background: url('../img/icon-mobile-.png') no-repeat;
+    padding-left: 20px;}
+
+.social{
+    position: relative;
+    display: inline-block;
+    left: 1375px;
+    top: -12px;}
+
+.social a{
+    padding-right: 15px;}
+
+.logo{
+    position: relative;
+    left: 375px;
+    top: 36px;
+}
+
+.links{
+    position: relative;
+        left: 625px;
+        top: 7px;
+}
+
+.links li{
+    display: inline-block;
+    padding-right: 45px;
+}
+
+.links a{
+    font-family: 'Conv_SourceSansPro-Regular';
+    text-decoration: none;
+    color: rgb(80,106,133); 
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.search{
+    position: relative;
+    left: 1510px;
+    top: -8px;
+}
+
+.button, .banner .button-banner, .work .workbtn, footer input[type=submit] {
+  background-color: #00bc9c;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+  text-align: center; }
+
+.padded {
+  padding-left: calc(100% - 575px);
+  padding-right: calc(100% - 575px); }
+
+@media all and (max-width: 1200px) {
+  .padded {
+    padding-left: 30px;
+    padding-right: 30px; } }
+
+
+.banner {
+  color: white;
+  background: url(../images/banner.jpg) no-repeat center center;
+  background-size: cover;
+  height: 880px;
+  padding-top: 300px;
+  text-align: center;
+ }
+
+.banner h1 {
+    font-family: 'Conv_SourceSansPro-Regular', sans-serif;
+    font-weight: bold;
+    font-size: 78px;
+    text-transform: uppercase;
+    margin-bottom: 30px; 
+}
+
+.banner p{
+    font-family: 'Conv_SourceSansPro-Regular', sans-serif;
+    color: #a3b1bf;
+    font-size: 18px;
+}
+
+
+.button-banner {
+    font-family: 'Conv_SourceSansPro-Regular', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 295px;
+    height: 63px;
+    line-height: 63px;
+    margin: 68px auto;
+    border-bottom: 2px solid #005647; }
+
+.aboutus {
+    padding: 130px 375px 80px;
+    color: #506a85;
+ }
+
+
+.aboutus h1, .portfolio h1, .work h1{
+    font-family: 'Conv_SourceSansPro-Regular', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    margin-bottom: 30px; 
+}
+
+.aboutus p, .portfolio p, .work p{
+    font-family: 'Conv_SourceSansPro-Regular', sans-serif;
+    color: #a3b1bf;
+    font-size: 18px;
+}
+
+.item{
+  padding: 130px 10px 0;
+  text-align: left; 
+}
+
+.item h1{
+    font-size: 35px;
+}
+
+.item p{
+    font-size: 15px;
+}
+
+.item img{
+    float: left;
+    margin-bottom: 70px;
+    margin-right: 30px;
+}
+
+.withicons {
+  padding-bottom: 130px; }
+  .withicons h3 {
+    font-weight: bold;
+    margin-top: 0; }
+
+.portfolio {
+  background-color: #f2f5f7;
+  padding: 130px 0; }
+  .portfolio .preview {
+    margin-top: 80px; }
+    .portfolio .preview h4 {
+      font-size: 20px;
+      margin: 35px 0 10px; 
+}
+    .portfolio .preview img {
+      max-width: 100%; }
+.portfolio .preview .description {
+      display: inline-block;
+      background-color: white;
+      padding: 0 0 35px;
+      margin: 10px 15px;
+      text-align: center;
+      box-shadow: 0 1px 1px gray;    
+}
+
+.portfolio .preview .description .category {
+      opacity: 0.6;
+      font-size: 14px; 
+}
+
+.portfolio .preview .smallpreview {
+      margin-top: 80px; 
+}
+
+.portfolio .preview .smallpreview img {
+       max-width: 100%;
+       margin: 0 15px;
+}
+
+    .portfolio .preview .carousel {
+      text-align: center;
+      margin-top: 5px; 
+}
+
+.portfolio .preview .carousel .navpoint {
+      display: inline-block;
+       width: 15px;
+       height: 15px;
+       border-radius: 50%;
+       margin: 0 5px;
+       background-color: #2f4052; 
+}
+     
+.portfolio .preview .carousel .navpoint.active {
+       background-color: #00bc9c; 
+}
+
+.prev{
+  position: relative;
+  top: 30px;
+  right: 60px;
+}
+
+.next{
+  position: relative;
+  top: 30px;
+  right: -60px;
+}
+
+
+
+.work {
+  background-color: white;
+  padding: 130px 0;
+  text-align: center; 
+}
+  .work .workbtn {
+    margin: 45px auto;
+    font-weight: bold;
+    width: 150px;
+    text-transform: uppercase;
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 2px solid #005647; 
+}
+
+.top {
+  bottom: 0;
+  cursor: pointer;
+  display: none;
+  font-size: 150%;
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+}
+
+footer { 
+  width: 100%;
+  padding: 75px 360px 0;
+  background-color: #2f4052;
+  color: #a3b1bf; 
+  margin: 0 !important;
+}
+
+footer h3{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+}
+
+footer p{
+  margin: 25px 0;
+}
+
+footer h5{
+  font-weight: bold;
+}
+
+
+footer img {
+    max-width: 100%; 
+}
+
+footer input[type=email] {
+    width: 95%;
+    height: 40px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+ 
+footer input[type=submit] {
+    margin-top: 4px;
+    margin-left: -108px;
+    width: 88px;
+    height: 30px;
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #005647;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footlinks {
+    width: 100%;
+    background-color: #283645;
+    height: 82px;
+    line-height: 82px;
+    color: #707e8c;
+    padding: 0 360px;
+}
+
+.footlinks ul {
+
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.f-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.f-links a{
+    font-family: 'Conv_SourceSansPro-Regular';
+    text-decoration: none;
+    color: rgb(80,106,133); 
+}
+
+@media all and (max-width: 768px) {
+.aboutus, .portfolio, .work, footer{
+    width: 500px;
+    padding: 30px 20px 0;
+    margin-top: 70px;
+} 
+
+.banner{
+    display: none;
+}
+
+.navi, .social, .logo, .links{
+    left: 0;
+}
+  
+.social{
+    top: -20px;
+}
+ 
+.navi{
+    padding-top: 7px;
+}
+
+.navi li{
+    display: block;
+}
+
+.links{
+    margin-top: 40px;
+}
+  
+.links li{
+    display: block;
+}
+  
+.links a:hover{
+    background-color: yellow;
+}
+
+.footcol{
+  margin: 25px 0;
+  padding: 0 40px;
+  text-align: center;
+}
+.footlinks{
+  width: 500px;
+  padding: 20px;
+}
+
+.footlinks ul{
+  display: none;
+}
+
+}
+
+/*# sourceMappingURL=main.css.map */
