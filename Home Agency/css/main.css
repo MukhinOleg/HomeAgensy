@@ -168,7 +168,6 @@ header nav{
     font-size: 18px;
 }
 
-
 .button-banner {
     font-family: 'Conv_SourceSansPro-Regular', sans-serif;
     font-weight: bold;
@@ -186,7 +185,7 @@ header nav{
  }
 
 
-.aboutus h1, .portfolio h1, .work h1{
+.aboutus h2, .portfolio h2, .work h2{
     font-family: 'Conv_SourceSansPro-Regular', sans-serif;
     font-weight: bold;
     font-size: 55px;
@@ -204,7 +203,7 @@ header nav{
   text-align: left; 
 }
 
-.item h1{
+.item h2{
     font-size: 35px;
 }
 
@@ -228,16 +227,19 @@ header nav{
   background-color: #f2f5f7;
   padding: 130px 0;
 }
-  .portfolio .preview {
+
+.portfolio .preview {
     margin-top: 80px;
 }
-    .portfolio .preview h4 {
+
+.portfolio .preview h4 {
       font-size: 20px;
       margin: 35px 0 10px; 
 }
-    .portfolio .preview img {
+.portfolio .preview img {
       max-width: 100%;
 }
+
 .portfolio .preview .description {
       display: inline-block;
       background-color: white;
@@ -298,7 +300,7 @@ header nav{
   padding: 130px 0;
   text-align: center; 
 }
-  .work .workbtn {
+ .work .workbtn {
     margin: 45px auto;
     font-weight: bold;
     width: 150px;
