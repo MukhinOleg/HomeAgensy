@@ -226,15 +226,18 @@ header nav{
 
 .portfolio {
   background-color: #f2f5f7;
-  padding: 130px 0; }
+  padding: 130px 0;
+}
   .portfolio .preview {
-    margin-top: 80px; }
+    margin-top: 80px;
+}
     .portfolio .preview h4 {
       font-size: 20px;
       margin: 35px 0 10px; 
 }
     .portfolio .preview img {
-      max-width: 100%; }
+      max-width: 100%;
+}
 .portfolio .preview .description {
       display: inline-block;
       background-color: white;
