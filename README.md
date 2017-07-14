@@ -1,3 +1,3 @@
 # HomeAgensy_Layout
 
-https://mukhinoleg.github.io/HomeAgensy/Hom%20Agency/
+https://mukhinoleg.github.io/HomeAgensy/Home%20Agency/
