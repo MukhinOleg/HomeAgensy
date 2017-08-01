@@ -133,7 +133,9 @@ header nav{
   -ms-border-radius: 5px;
   border-radius: 5px;
   color: white;
-  text-align: center; }
+  cursor: pointer;  
+  text-align: center;
+}
 
 .padded {
   padding-left: calc(100% - 575px);
